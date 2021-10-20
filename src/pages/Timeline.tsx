@@ -10,6 +10,8 @@ type ItemsProps = {
   last:string
 }
 
+const ChangePoint:string = 'change'
+
 export const Timeline: React.FC = () => {
   const [items, setItems] = useState<ItemsProps[]>([])
 
